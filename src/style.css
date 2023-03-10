@@ -10,7 +10,7 @@ main{
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 650px;
+    height: 1000px;
     background-image: url("./img/fondo.jpg");
     background-size: cover;
     background-position: center;
@@ -81,6 +81,7 @@ main{
     border-radius: 5px;
     outline: none;
     border: 0px;
+    height: 20px;
 }
 
 
@@ -89,6 +90,7 @@ main{
     border-radius: 5px;
     border: 0px;
     outline: none;
+    height: 20px;
 }
 
 .content__buttom{
