@@ -78,6 +78,7 @@ main{
 }
 
 .content__nameDate input:nth-child(1){
+    width: 10%;
     border-radius: 5px;
     outline: none;
     border: 0px;
