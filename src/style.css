@@ -11,7 +11,7 @@ main{
     flex-direction: column;
     width: 100%;
     height: 1000px;
-    background-image: url("./img/fondo7.jpg");
+    background-image: url("./img/ww.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -23,7 +23,7 @@ main{
     width: 35%;
     height: 300px;
     border-radius: 50px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     box-shadow: 0px 0px 25px #222;
     border: 1px solid white;
 }
@@ -122,7 +122,7 @@ main{
         width: 30%;
         height: 300px;
         border-radius: 50px;
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(10px);
         box-shadow: 0px 0px 25px #222;
         border: 1px solid white;
     }
