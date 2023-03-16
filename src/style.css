@@ -129,6 +129,13 @@ main{
     background-color: white;
 }
 
+.grupo-incorrecto{
+    color:red;
+}
+
+.grupo-correcto{
+    color: green;
+}
 
 @media screen and (min-width: 1280px){
     .main__content{
