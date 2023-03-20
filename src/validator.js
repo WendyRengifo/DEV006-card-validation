@@ -1,6 +1,8 @@
-const validator = {
+const validator ={
     
+
 };
+
 
 
 
