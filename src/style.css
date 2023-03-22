@@ -96,6 +96,10 @@ main .containerTwo{
     width: 20%;
 }
 
+.formulario{
+    width: 80%;
+}
+
 .card .number{
     width: 80%;
     height: 25px;
