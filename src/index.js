@@ -25,9 +25,12 @@ tarjeta.addEventListener("input", function(){
 
 const comprarBtn = document.getElementById("buys");
 
+
 comprarBtn.addEventListener("click", function(){
   const popUp = document.getElementById("pop-up");
   popUp.style.display = "block";
 })
+
+
 
 
