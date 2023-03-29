@@ -12,14 +12,6 @@ body{
    background-color: #FFC6D3;
 }
 
-.invalid{
-    border: solid 2px red;
-}
-
-.error{
-    color:red;
-    display: block;
-}
 
 main{
     display: flex;
@@ -155,7 +147,6 @@ main .containerTwo{
 }
 
 .compra{
-    display: none;
     width: 40%;
     height: 100px;
     margin-top: 20px;
