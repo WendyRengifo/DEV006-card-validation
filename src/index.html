@@ -22,17 +22,17 @@
               </div>
                 <form class="formulario" id="credito">
                 <div class="number">
-                  <input type="text"  required id="tarjeta" name="tarjeta">
+                  <input type="text"  required id="tarjeta" name="tarjeta" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
                   <span></span>
                 </div>
                 <div class="cvcDate">
                   <div class="Date">
-                    <input type="text" placeholder="12" required id="mes" name="mes">
-                    <input type="text" placeholder="2027" required id="year" name="year">
+                    <input type="text" placeholder="12" required id="mes" name="mes" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                    <input type="text" placeholder="2027" required id="year" name="year" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
                     <span></span>
                   </div>
                   <div class="cvc">
-                    <input type="text" placeholder="114" required id="codigo" name="cvc">
+                    <input type="text" placeholder="114" required id="codigo" name="cvc" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
                     <span></span>
                   </div>
                 </div>
