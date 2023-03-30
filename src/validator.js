@@ -21,8 +21,8 @@ const validator = {
     return suma % 10 === 0;
   },
 
-  maskify: (numeroTarjetaMascara) =>{
-    if (numeroTarjetaMascara.length <= 4) {
+  maskify: (numeroTarjetaMascara) =>{ // Aqui se declara la función  maskify  con el parametro llamado numerotarjetaMascara se declara  con una funcion flecha
+    if (numeroTarjetaMascara.length <= 4) {// Aqui verifica si la tarjeta escrita es menor o igual que 4 digitos  si es así la funcion devuelve los cuatro numeros sin enmascarar
       return numeroTarjetaMascara;
     } else {
       const ultimosCuatroDigitos = numeroTarjetaMascara.substring(numeroTarjetaMascara.length - 4);
